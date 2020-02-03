@@ -1,0 +1,144 @@
+#main-body {
+    background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    
+} 
+#intro{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}   
+
+.btn {
+    text-align: center;
+    font-weight: 900;
+    margin-left: 35px;
+    animation-duration: 2s;
+    animation-name: bounceIn;
+
+}
+
+#nav-bar {
+    margin-left: 10px;
+
+}
+
+#form {
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+}
+ 
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+#submit {
+    
+    text-align: left;
+}
+
+.media:hover {
+    cursor: pointer;
+    
+} 
+
+.fa-github {
+    font-size:25px;color: white;
+    margin-right: 10px;
+}
+
+.fa-github:hover{
+    color: red;
+}
+
+.fa-linkedin {
+    font-size:25px;color: white;
+}
+
+.fa-linkedin:hover {
+    color: red;
+}
+
+.row {
+    text-align: center;
+   
+}
+#view-work{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#btn:hover {
+    color: white;
+    background-color: black;
+}
+
+
+#summary {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+}
+
+#about {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.projects {
+    color: white;
+}
+
+#contact {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.email {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.contact {
+    font-family: 'Headland One', serif;
+}
+
+.jumbotron{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#summary-header {
+    text-align: center;
+}
+
