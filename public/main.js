@@ -52,8 +52,13 @@ $(document).ready(function () {
           $("#name").val("");
           $("#email").val("");
           $("#message").val("");
+          $(".modal").show();
 
         });
+
+        $("#modal-btn").on("click", function(){
+          $(".modal").hide();
+        })
 
 
     } else {
