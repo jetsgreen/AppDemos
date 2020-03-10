@@ -44,11 +44,11 @@ $(document).ready(function () {
           created: Date.now()
         }
       })
-        // If that API call succeeds, add the title and a delete button for the note to the page
+       
         .then(function (data) {
-          // Add the title and delete button to the #results section
+         
           console.log(data)
-          // Clear the note and title inputs on the page
+         
           $("#name").val("");
           $("#email").val("");
           $("#message").val("");
